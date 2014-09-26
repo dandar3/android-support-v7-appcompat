@@ -20,8 +20,8 @@
     android:versionName="21.0.0-rc1">
 
     <uses-sdk
-        android:minSdkVersion="L"
-        android:targetSdkVersion="L" />
+        android:minSdkVersion="7"
+        android:targetSdkVersion="19" />
 
     <application />
 
