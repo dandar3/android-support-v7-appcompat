@@ -14,8 +14,8 @@
      limitations under the License.
 -->
 
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
-            android:paddingMode="stack">
-    <item android:drawable="@drawable/abc_cab_background_internal_bg" />
-    <item android:drawable="@drawable/abc_cab_background_top_mtrl_alpha" />
-</layer-list><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-dev/frameworks/support/v7/appcompat/res/drawable/abc_cab_background_top_material.xml -->
+<!-- This is a dummy drawable so that we can refer to the drawable ID -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/white"/>
+</shape>
+<!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/drawable/abc_cab_background_top_material.xml -->
