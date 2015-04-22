@@ -9,8 +9,10 @@ https://github.com/dandar3/android-support-v7-appcompat/tags/22.1.0
 
 Known issues:
 * Android AAPT Problem (3 items):
-  ** `abc_alert_dialog_material.xml`
-  "removing attribute http://schemas.android.com/apk/res/android:layout_marginEnd from <ImageView>"
-  "removing attribute http://schemas.android.com/apk/res/android:layoutDirection from <LinearLayout>"
-  "removing attribute http://schemas.android.com/apk/res/android:textAlignment from <android.support.v7.internal.widget.DialogTitle>"
-  See https://code.google.com/p/android/issues/detail?id=164673
+  * See https://code.google.com/p/android/issues/detail?id=164673
+
+|`abc_alert_dialog_material.xml`|
+|---|
+|`removing attribute http://schemas.android.com/apk/res/android:layout_marginEnd from <ImageView>`|
+|`removing attribute http://schemas.android.com/apk/res/android:layoutDirection from <LinearLayout>`|
+|`removing attribute http://schemas.android.com/apk/res/android:textAlignment from <android.support.v7.internal.widget.DialogTitle>`|
