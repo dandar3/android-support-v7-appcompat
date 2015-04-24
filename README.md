@@ -16,6 +16,11 @@ Known issues:
 
 Solutions:
 
-A. Force use of SDK Build Tools 21.1.2 with AppCompat library project in project.properties.
+* Force use of SDK Build Tools 21.1.2 with AppCompat library project in project.properties.
 
-@see https://code.google.com/p/android/issues/detail?id=164673#c11 and https://developer.android.com/tools/revisions/build-tools.html
+  @see https://code.google.com/p/android/issues/detail?id=164673#c11 and  https://developer.android.com/tools/revisions/build-tools.html
+ 
+or
+
+* Set Eclipse `Preferences` > `Android` > `Build` > `Build output` to `Silent` or `Normal` instead of `Verbose`.
+  @see https://code.google.com/p/android/issues/detail?id=164673#c18
