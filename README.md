@@ -23,4 +23,5 @@ Solutions:
 or
 
 * Set Eclipse `Preferences` > `Android` > `Build` > `Build output` to `Silent` or `Normal` instead of `Verbose`.
+
   @see https://code.google.com/p/android/issues/detail?id=164673#c18
