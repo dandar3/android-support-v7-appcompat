@@ -9,10 +9,13 @@ https://github.com/dandar3/android-support-v7-appcompat/tags/22.1.0
 
 Known issues:
 * Android AAPT Problem (3 items):
-  * See https://code.google.com/p/android/issues/detail?id=164673
+  * `abc_alert_dialog_material.xml` <br/>
+`removing attribute http://schemas.android.com/apk/res/android:layout_marginEnd from ...`<br/>
+`removing attribute http://schemas.android.com/apk/res/android:layoutDirection from ...`<br/>
+`removing attribute http://schemas.android.com/apk/res/android:textAlignment from ...`<br/>
 
-|`abc_alert_dialog_material.xml`|
-|---|
-|`removing attribute http://schemas.android.com/apk/res/android:layout_marginEnd from <ImageView>`|
-|`removing attribute http://schemas.android.com/apk/res/android:layoutDirection from <LinearLayout>`|
-|`removing attribute http://schemas.android.com/apk/res/android:textAlignment from <android.support.v7.internal.widget.DialogTitle>`|
+Solutions:
+
+A. Force use of SDK Build Tools 21.1.2 with AppCompat library project in project.properties.
+
+@see https://code.google.com/p/android/issues/detail?id=164673#c11 and https://developer.android.com/tools/revisions/build-tools.html
