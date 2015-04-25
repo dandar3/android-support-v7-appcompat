@@ -20,8 +20,7 @@ Known issues:
 `removing attribute http://schemas.android.com/apk/res/android:textAlignment from ...`<br/>
 
 Solutions:
-* Force use of SDK Build Tools 21.1.2 with AppCompat library project in project.properties.
-
+* Force use of SDK Build Tools 21.1.2 with AppCompat library project in project.properties.<br/>
   @see https://code.google.com/p/android/issues/detail?id=164673#c11 and  https://developer.android.com/tools/revisions/build-tools.html
  
 or
