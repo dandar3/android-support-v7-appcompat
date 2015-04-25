@@ -7,6 +7,11 @@ Requires (to compile):<br/>
 Subversion checkout URL:<br/>
 https://github.com/dandar3/android-support-v7-appcompat/tags/22.1.0
 
+References:
+* http://developer.android.com/tools/support-library/features.html#v7-appcompat
+* http://developer.android.com/tools/support-library/index.html#revisions
+* http://android-developers.blogspot.com/2015/04/android-support-library-221.html
+
 Known issues:
 * Android AAPT Problem (3 items):
   * `abc_alert_dialog_material.xml` <br/>
@@ -15,7 +20,6 @@ Known issues:
 `removing attribute http://schemas.android.com/apk/res/android:textAlignment from ...`<br/>
 
 Solutions:
-
 * Force use of SDK Build Tools 21.1.2 with AppCompat library project in project.properties.
 
   @see https://code.google.com/p/android/issues/detail?id=164673#c11 and  https://developer.android.com/tools/revisions/build-tools.html
