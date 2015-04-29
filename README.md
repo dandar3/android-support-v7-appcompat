@@ -1,11 +1,11 @@
 Eclipse library project based on:<br/>
-`ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/22.1.0/appcompat-v7-22.1.0.aar`
+`ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/22.1.1/appcompat-v7-22.1.1.aar`
 
 Requires (to compile):<br/>
 `Android 5.1 (API 22) SDK Platform`
 
 Subversion checkout URL:<br/>
-https://github.com/dandar3/android-support-v7-appcompat/tags/22.1.0
+* https://github.com/dandar3/android-support-v7-appcompat/tags/22.1.1
 
 References:
 * http://developer.android.com/tools/support-library/features.html#v7-appcompat
