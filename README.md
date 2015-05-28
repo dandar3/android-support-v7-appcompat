@@ -1,21 +1,20 @@
 Eclipse library project based on:<br/>
-`ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/22.1.1/appcompat-v7-22.1.1.aar`
+`ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/22.2.0/appcompat-v7-22.2.0.aar`
 
 Requires (to compile):<br/>
-`Android 5.1 (API 22) SDK Platform`
+`Android 5.1.1 (API 22) SDK Platform`
 
 Subversion checkout URL:<br/>
-* https://github.com/dandar3/android-support-v7-appcompat/tags/22.1.1
+* https://github.com/dandar3/android-support-v7-appcompat/tags/22.2.0
 
 References:
-* http://developer.android.com/tools/support-library/features.html#v7-appcompat
 * http://developer.android.com/tools/support-library/index.html#revisions
+* http://developer.android.com/tools/support-library/features.html#v7-appcompat
 * http://android-developers.blogspot.com/2015/04/android-support-library-221.html
 
 Known issues:
 * Android AAPT Problem (3 items):
   * `abc_alert_dialog_material.xml` <br/>
-`removing attribute http://schemas.android.com/apk/res/android:layout_marginEnd from ...`<br/>
 `removing attribute http://schemas.android.com/apk/res/android:layoutDirection from ...`<br/>
 `removing attribute http://schemas.android.com/apk/res/android:textAlignment from ...`<br/>
 
