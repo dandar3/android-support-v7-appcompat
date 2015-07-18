@@ -10,7 +10,7 @@ Subversion checkout URL:<br/>
 References:
 * http://developer.android.com/tools/support-library/index.html#revisions
 * http://developer.android.com/tools/support-library/features.html#v7-appcompat
-* http://android-developers.blogspot.com/2015/04/android-support-library-221.html
+* http://android-developers.blogspot.com/2015/05/android-design-support-library.html
 
 Known issues:
 * Android AAPT Problem (3 items):
