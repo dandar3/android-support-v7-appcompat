@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/attrs.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/attrs.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
     <attr format="string" name="title"/>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/bools.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/bools.xml -->
     <eat-comment/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
     <bool name="abc_action_bar_expanded_action_views_exclusive">true</bool>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/config.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/config.xml -->
     <eat-comment/>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/bools.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/bools.xml -->
     <eat-comment/>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/colors.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/colors.xml -->
     <eat-comment/>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/colors_material.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/colors_material.xml -->
     <eat-comment/>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <color name="background_floating_material_dark">#ff424242</color>
-    <color name="background_floating_material_light">#ffeeeeee</color>
-    <color name="background_material_dark">#ff303030</color>
-    <color name="background_material_light">#ffeeeeee</color>
+    <color name="background_floating_material_dark">@color/material_grey_800</color>
+    <color name="background_floating_material_light">@android:color/white</color>
+    <color name="background_material_dark">@color/material_grey_850</color>
+    <color name="background_material_light">@color/material_grey_50</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -45,26 +45,33 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="foreground_material_dark">@android:color/white</color>
+    <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <color name="link_text_material_dark">@color/material_deep_teal_200</color>
-    <color name="link_text_material_light">@color/material_deep_teal_500</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <color name="primary_dark_material_dark">#ff000000</color>
-    <color name="primary_dark_material_light">#ff757575</color>
-    <color name="primary_material_dark">#ff212121</color>
-    <color name="primary_material_light">#ffefefef</color>
+    <color name="material_grey_100">#fff5f5f5</color>
+    <color name="material_grey_300">#ffe0e0e0</color>
+    <color name="material_grey_50">#fffafafa</color>
+    <color name="material_grey_600">#ff757575</color>
+    <color name="material_grey_800">#ff424242</color>
+    <color name="material_grey_850">#ff303030</color>
+    <color name="material_grey_900">#ff212121</color>
+    <color name="primary_dark_material_dark">@android:color/black</color>
+    <color name="primary_dark_material_light">@color/material_grey_600</color>
+    <color name="primary_material_dark">@color/material_grey_900</color>
+    <color name="primary_material_light">@color/material_grey_100</color>
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <color name="ripple_material_dark">#4dffffff</color>
+    <color name="ripple_material_dark">#42ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
@@ -82,7 +89,8 @@
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
     <declare-styleable name="AlertDialog"><attr name="android:layout"/><attr format="reference" name="buttonPanelSideLayout"/><attr format="reference" name="listLayout"/><attr format="reference" name="multiChoiceItemLayout"/><attr format="reference" name="singleChoiceItemLayout"/><attr format="reference" name="listItemLayout"/></declare-styleable>
     <declare-styleable name="AppCompatTextView"><attr format="reference|boolean" name="textAllCaps"/><attr name="android:textAppearance"/></declare-styleable>
-    <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="topBottomBarArrowSize"/><attr format="dimension" name="middleBarArrowSize"/><attr format="dimension" name="barSize"/><attr format="dimension" name="thickness"/></declare-styleable>
+    <declare-styleable name="CompoundButton"><attr name="android:button"/><attr format="color" name="buttonTint"/><attr name="buttonTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
+    <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
@@ -92,45 +100,46 @@
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
-    <declare-styleable name="Spinner"><attr format="reference" name="prompt"/><attr format="enum" name="spinnerMode"><enum name="dialog" value="0"/><enum name="dropdown" value="1"/></attr><attr name="android:dropDownSelector"/><attr name="android:popupBackground"/><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/><attr name="android:dropDownWidth"/><attr format="reference" name="popupPromptView"/><attr name="android:gravity"/><attr format="boolean" name="disableChildrenWhenDisabled"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="reference" name="track"/><attr name="android:textOn"/><attr name="android:textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/><attr format="boolean" name="splitTrack"/><attr format="boolean" name="showText"/></declare-styleable>
     <declare-styleable name="TextAppearance"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="textAllCaps"/></declare-styleable>
-    <declare-styleable name="Theme"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/><attr format="dimension|fraction" name="windowMinWidthMajor"/><attr format="dimension|fraction" name="windowMinWidthMinor"/><attr name="android:windowIsFloating"/><attr name="android:windowAnimationStyle"/><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionOverflowMenuStyle"/><attr format="reference" name="actionBarPopupTheme"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarTheme"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize"><enum name="wrap_content" value="0"/></attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/></declare-styleable>
-    <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/></declare-styleable>
-    <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
+    <declare-styleable name="Theme"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/><attr format="dimension|fraction" name="windowMinWidthMajor"/><attr format="dimension|fraction" name="windowMinWidthMinor"/><attr name="android:windowIsFloating"/><attr name="android:windowAnimationStyle"/><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionOverflowMenuStyle"/><attr format="reference" name="actionBarPopupTheme"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarTheme"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize"><enum name="wrap_content" value="0"/></attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="controlBackground"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/></declare-styleable>
+    <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/><attr name="logo"/><attr format="string" name="logoDescription"/><attr format="color" name="titleTextColor"/><attr format="color" name="subtitleTextColor"/></declare-styleable>
+    <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/></declare-styleable>
+    <declare-styleable name="ViewBackgroundHelper"><attr name="android:background"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens_material.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens_material.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
-    <dimen name="abc_action_bar_default_padding_material">4dp</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">0dp</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">0dp</dimen>
     <dimen name="abc_action_bar_icon_vertical_padding_material">16dp</dimen>
-    <dimen name="abc_action_bar_navigation_padding_start_material">0dp</dimen>
     <dimen name="abc_action_bar_overflow_padding_end_material">10dp</dimen>
     <dimen name="abc_action_bar_overflow_padding_start_material">6dp</dimen>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_progress_bar_size">40dp</dimen>
     <dimen name="abc_action_bar_stacked_max_height">48dp</dimen>
     <dimen name="abc_action_bar_stacked_tab_max_width">180dp</dimen>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens_material.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens_material.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_subtitle_bottom_margin_material">5dp</dimen>
     <dimen name="abc_action_bar_subtitle_top_margin_material">-3dp</dimen>
     <dimen name="abc_action_button_min_height_material">48dp</dimen>
     <dimen name="abc_action_button_min_width_material">48dp</dimen>
     <dimen name="abc_action_button_min_width_overflow_material">36dp</dimen>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="abc_alert_dialog_button_bar_height">48dp</dimen>
     <dimen name="abc_button_inset_horizontal_material">@dimen/abc_control_inset_material</dimen>
     <dimen name="abc_button_inset_vertical_material">6dp</dimen>
     <dimen name="abc_button_padding_horizontal_material">8dp</dimen>
     <dimen name="abc_button_padding_vertical_material">@dimen/abc_control_padding_material</dimen>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/config.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/config.xml -->
     <eat-comment/>
     <dimen name="abc_config_prefDialogWidth">320dp</dimen>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="abc_control_corner_material">2dp</dimen>
     <dimen name="abc_control_inset_material">4dp</dimen>
@@ -140,11 +149,11 @@
     <item name="abc_dialog_min_width_minor" type="dimen">95%</item>
     <dimen name="abc_dialog_padding_material">24dp</dimen>
     <dimen name="abc_dialog_padding_top_material">18dp</dimen>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens_material.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens_material.xml -->
     <eat-comment/>
     <item format="float" name="abc_disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="abc_disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="abc_dropdownitem_icon_width">32dip</dimen>
     <dimen name="abc_dropdownitem_text_padding_left">8dip</dimen>
@@ -152,17 +161,17 @@
     <dimen name="abc_edit_text_inset_bottom_material">7dp</dimen>
     <dimen name="abc_edit_text_inset_horizontal_material">4dp</dimen>
     <dimen name="abc_edit_text_inset_top_material">10dp</dimen>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens_material.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens_material.xml -->
     <eat-comment/>
     <dimen name="abc_floating_window_z">16dp</dimen>
     <dimen name="abc_list_item_padding_horizontal_material">@dimen/abc_action_bar_content_inset_material</dimen>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="abc_panel_menu_list_width">296dp</dimen>
     <dimen name="abc_search_view_preferred_width">320dip</dimen>
     <dimen name="abc_search_view_text_min_width">160dip</dimen>
     <dimen name="abc_switch_padding">3dp</dimen>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens_material.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens_material.xml -->
     <eat-comment/>
     <dimen name="abc_text_size_body_1_material">14sp</dimen>
     <dimen name="abc_text_size_body_2_material">14sp</dimen>
@@ -181,25 +190,28 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/colors_material.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/colors_material.xml -->
     <eat-comment/>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
+    <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
+    <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
+    <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/colors.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/colors.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/ids.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/ids.xml -->
     <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
@@ -210,18 +222,18 @@
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/config.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/config.xml -->
     <eat-comment/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/dimens.xml -->
     <eat-comment/>
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/config.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/config.xml -->
     <eat-comment/>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/strings.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/strings.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -241,13 +253,13 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -276,7 +288,7 @@
         <item name="android:paddingRight">?attr/dialogPreferredPadding</item>
         <item name="android:paddingTop">@dimen/abc_dialog_padding_top_material</item>
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles_base_text.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_base_text.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -334,13 +346,13 @@
         <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
         <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="TextAppearance.AppCompat.Menu">
     </style>
     <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="TextAppearance.AppCompat.Menu">
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles_base_text.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_base_text.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Medium">
         <item name="android:textSize">@dimen/abc_text_size_medium_material</item>
@@ -354,7 +366,7 @@
         <item name="android:textSize">@dimen/abc_text_size_menu_material</item>
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.SearchResult" parent="">
         <item name="android:textStyle">normal</item>
@@ -368,7 +380,7 @@
     <style name="Base.TextAppearance.AppCompat.SearchResult.Title">
         <item name="android:textSize">18sp</item>
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles_base_text.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_base_text.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Small">
         <item name="android:textSize">@dimen/abc_text_size_small_material</item>
@@ -383,7 +395,7 @@
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Subhead.Inverse">
-        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
         <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Title">
@@ -394,31 +406,38 @@
         <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
         <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
     <eat-comment/>
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="android:TextAppearance.Small">
-        <item name="android:textSize">12sp</item>
-        <item name="android:textStyle">bold</item>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="TextAppearance.AppCompat.Menu">
         <item name="android:textColor">?attr/actionMenuTextColor</item>
+        <item name="textAllCaps">@bool/abc_config_actionMenuItemAllCaps</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="TextAppearance.AppCompat.Subhead">
         <item name="android:textSize">@dimen/abc_text_size_subtitle_material_toolbar</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="TextAppearance.AppCompat.Subhead.Inverse">
         <item name="android:textSize">@dimen/abc_text_size_subtitle_material_toolbar</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title" parent="TextAppearance.AppCompat.Title">
         <item name="android:textSize">@dimen/abc_text_size_title_material_toolbar</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="TextAppearance.AppCompat.Title.Inverse">
         <item name="android:textSize">@dimen/abc_text_size_title_material_toolbar</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
     </style>
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="TextAppearance.AppCompat.Subhead">
-        <item name="android:textSize">@dimen/abc_text_size_subtitle_material_toolbar</item>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle"/>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_base_text.xml -->
+    <eat-comment/>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button" parent="TextAppearance.AppCompat.Button"/>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
     </style>
-    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title" parent="TextAppearance.AppCompat.Title">
-        <item name="android:textSize">@dimen/abc_text_size_title_material_toolbar</item>
-    </style>
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
+    <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem" parent="android:TextAppearance.Small">
         <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
     </style>
@@ -435,7 +454,7 @@
     </style>
     <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/themes_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/themes_base.xml -->
     <eat-comment/>
     <style name="Base.Theme.AppCompat" parent="Base.V7.Theme.AppCompat">
     </style>
@@ -489,15 +508,15 @@
         <item name="windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>
     </style>
     <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="Theme.AppCompat.Light"/>
-    <style name="Base.ThemeOverlay.AppCompat" parent=""/>
+    <style name="Base.ThemeOverlay.AppCompat" parent="Platform.ThemeOverlay.AppCompat"/>
     <style name="Base.ThemeOverlay.AppCompat.ActionBar">
         <item name="colorControlNormal">?android:attr/textColorPrimary</item>
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView.ActionBar</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark" parent="Platform.ThemeOverlay.AppCompat.Dark">
         <item name="android:windowBackground">@color/background_material_dark</item>
-        <item name="android:colorForeground">@color/bright_foreground_material_dark</item>
-        <item name="android:colorForegroundInverse">@color/bright_foreground_material_light</item>
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
         <item name="android:colorBackground">@color/background_material_dark</item>
         <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
 
@@ -511,7 +530,6 @@
         <item name="android:textColorHint">@color/hint_foreground_material_dark</item>
         <item name="android:textColorHintInverse">@color/hint_foreground_material_light</item>
         <item name="android:textColorHighlight">@color/highlighted_text_material_dark</item>
-        <item name="android:textColorLink">@color/link_text_material_dark</item>
 
         <item name="colorControlNormal">?android:attr/textColorSecondary</item>
         <item name="colorControlHighlight">@color/ripple_material_dark</item>
@@ -527,8 +545,8 @@
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Light" parent="Platform.ThemeOverlay.AppCompat.Light">
         <item name="android:windowBackground">@color/background_material_light</item>
-        <item name="android:colorForeground">@color/bright_foreground_material_light</item>
-        <item name="android:colorForegroundInverse">@color/bright_foreground_material_dark</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
         <item name="android:colorBackground">@color/background_material_light</item>
         <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_light</item>
 
@@ -543,7 +561,6 @@
         <item name="android:textColorHint">@color/hint_foreground_material_light</item>
         <item name="android:textColorHintInverse">@color/hint_foreground_material_dark</item>
         <item name="android:textColorHighlight">@color/highlighted_text_material_light</item>
-        <item name="android:textColorLink">@color/link_text_material_light</item>
 
         <item name="colorControlNormal">?android:attr/textColorSecondary</item>
         <item name="colorControlHighlight">@color/ripple_material_light</item>
@@ -556,6 +573,7 @@
     <style name="Base.V7.Theme.AppCompat" parent="Platform.AppCompat">
         <item name="windowActionBar">true</item>
         <item name="windowActionBarOverlay">false</item>
+        <item name="actionBarPopupTheme">@null</item>
 
         <!-- Used by MediaRouter -->
         <item name="isLightTheme">false</item>
@@ -662,6 +680,7 @@
         <item name="colorControlHighlight">@color/ripple_material_dark</item>
         <item name="colorButtonNormal">@color/button_material_dark</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
+        <item name="controlBackground">?attr/selectableItemBackgroundBorderless</item>
 
         <item name="drawerArrowStyle">@style/Widget.AppCompat.DrawerArrowToggle</item>
 
@@ -674,7 +693,7 @@
         <!-- Button styles -->
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
-        <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Button</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
 
         <item name="buttonBarStyle">@style/Widget.AppCompat.ButtonBar</item>
         <item name="buttonBarButtonStyle">@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
@@ -724,6 +743,7 @@
     <style name="Base.V7.Theme.AppCompat.Light" parent="Platform.AppCompat.Light">
         <item name="windowActionBar">true</item>
         <item name="windowActionBarOverlay">false</item>
+        <item name="actionBarPopupTheme">@null</item>
 
         <!-- Used by MediaRouter -->
         <item name="isLightTheme">true</item>
@@ -830,6 +850,7 @@
         <item name="colorControlHighlight">@color/ripple_material_light</item>
         <item name="colorButtonNormal">@color/button_material_light</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
+        <item name="controlBackground">?attr/selectableItemBackgroundBorderless</item>
 
         <item name="drawerArrowStyle">@style/Widget.AppCompat.DrawerArrowToggle</item>
 
@@ -842,7 +863,7 @@
         <!-- Button styles -->
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
-        <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Button</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
 
         <item name="buttonBarStyle">@style/Widget.AppCompat.ButtonBar</item>
         <item name="buttonBarButtonStyle">@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
@@ -889,7 +910,7 @@
 
         <item name="android:listDivider">@null</item>
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
     <eat-comment/>
     <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView" parent="android:Widget.AutoCompleteTextView">
         <item name="android:dropDownSelector">?attr/listChoiceBackgroundIndicator</item>
@@ -965,8 +986,7 @@
         <item name="textAllCaps">@bool/abc_config_actionMenuItemAllCaps</item>
     </style>
     <style name="Base.Widget.AppCompat.ActionButton.CloseMode">
-        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
-        <item name="android:minWidth">56dp</item>
+        <item name="android:background">?attr/controlBackground</item>
     </style>
     <style name="Base.Widget.AppCompat.ActionButton.Overflow">
         <item name="android:src">@drawable/abc_ic_menu_moreoverflow_mtrl_alpha</item>
@@ -1011,6 +1031,10 @@
         <item name="android:maxLines">2</item>
         <item name="android:minHeight">@dimen/abc_alert_dialog_button_bar_height</item>
     </style>
+    <style name="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/abc_btn_colored_material</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Inverse</item>
+    </style>
     <style name="Base.Widget.AppCompat.Button.Small">
         <item name="android:minHeight">48dip</item>
         <item name="android:minWidth">48dip</item>
@@ -1018,36 +1042,34 @@
     <style name="Base.Widget.AppCompat.ButtonBar" parent="android:Widget">
         <item name="android:background">@null</item>
     </style>
-    <style name="Base.Widget.AppCompat.ButtonBar.AlertDialog">
-        <item name="android:background">@null</item>
-    </style>
+    <style name="Base.Widget.AppCompat.ButtonBar.AlertDialog"/>
     <style name="Base.Widget.AppCompat.CompoundButton.CheckBox" parent="android:Widget.CompoundButton.CheckBox">
         <item name="android:button">?android:attr/listChoiceIndicatorMultiple</item>
-        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:background">?attr/controlBackground</item>
     </style>
     <style name="Base.Widget.AppCompat.CompoundButton.RadioButton" parent="android:Widget.CompoundButton.RadioButton">
         <item name="android:button">?android:attr/listChoiceIndicatorSingle</item>
-        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:background">?attr/controlBackground</item>
     </style>
     <style name="Base.Widget.AppCompat.CompoundButton.Switch" parent="android:Widget.CompoundButton">
         <item name="track">@drawable/abc_switch_track_mtrl_alpha</item>
         <item name="android:thumb">@drawable/abc_switch_thumb_material</item>
         <item name="switchTextAppearance">@style/TextAppearance.AppCompat.Widget.Switch</item>
-        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:background">?attr/controlBackground</item>
         <item name="showText">false</item>
         <item name="switchPadding">@dimen/abc_switch_padding</item>
     </style>
     <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
-        <item name="barSize">18dp</item>
+        <item name="barLength">18dp</item>
         <item name="gapBetweenBars">3dp</item>
         <item name="drawableSize">24dp</item>
     </style>
     <style name="Base.Widget.AppCompat.DrawerArrowToggle.Common" parent="">
         <item name="color">?android:attr/textColorSecondary</item>
-        <item name="middleBarArrowSize">16dp</item>
         <item name="spinBars">true</item>
         <item name="thickness">2dp</item>
-        <item name="topBottomBarArrowSize">11.31dp</item>
+        <item name="arrowShaftLength">16dp</item>
+        <item name="arrowHeadLength">8dp</item>
     </style>
     <style name="Base.Widget.AppCompat.DropDownItem.Spinner" parent="">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.DropDownItem</item>
@@ -1136,25 +1158,16 @@
         <item name="searchHintIcon">@null</item>
         <item name="defaultQueryHint">@string/abc_search_hint</item>
     </style>
-    <style name="Base.Widget.AppCompat.Spinner" parent="android:Widget.Spinner">
+    <style name="Base.Widget.AppCompat.Spinner" parent="Platform.Widget.AppCompat.Spinner">
         <item name="android:background">@drawable/abc_spinner_mtrl_am_alpha</item>
-        <item name="android:dropDownSelector">?attr/listChoiceBackgroundIndicator</item>
-        <item name="android:dropDownVerticalOffset">0dip</item>
-    </style>
-    <style name="Base.Widget.AppCompat.Spinner.DropDown.ActionBar" parent="android:Widget">
-        <item name="spinnerMode">dropdown</item>
-
-        <item name="android:clickable">true</item>
-        <item name="android:background">@drawable/abc_spinner_mtrl_am_alpha</item>
-        <item name="android:dropDownSelector">?attr/listChoiceBackgroundIndicator</item>
         <item name="android:popupBackground">@drawable/abc_popup_background_mtrl_mult</item>
+        <item name="android:dropDownSelector">?attr/listChoiceBackgroundIndicator</item>
         <item name="android:dropDownVerticalOffset">0dip</item>
         <item name="android:dropDownHorizontalOffset">0dip</item>
-        <item name="overlapAnchor">true</item>
         <item name="android:dropDownWidth">wrap_content</item>
-        <item name="popupPromptView">@layout/abc_simple_dropdown_hint</item>
+        <item name="android:clickable">true</item>
         <item name="android:gravity">left|start|center_vertical</item>
-        <item name="disableChildrenWhenDisabled">true</item>
+        <item name="overlapAnchor">true</item>
     </style>
     <style name="Base.Widget.AppCompat.Spinner.Underlined">
         <item name="android:background">@drawable/abc_spinner_textfield_background_material</item>
@@ -1173,20 +1186,22 @@
         <item name="collapseIcon">?attr/homeAsUpIndicator</item>
         <item name="collapseContentDescription">@string/abc_toolbar_collapse_description</item>
         <item name="contentInsetStart">16dp</item>
+        <item name="android:paddingLeft">@dimen/abc_action_bar_default_padding_start_material</item>
+        <item name="android:paddingRight">@dimen/abc_action_bar_default_padding_end_material</item>
     </style>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget">
+        <item name="android:background">?attr/controlBackground</item>
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
-        <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/themes_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/themes_base.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
         <!-- Window colors -->
-        <item name="android:colorForeground">@color/bright_foreground_material_dark</item>
-        <item name="android:colorForegroundInverse">@color/bright_foreground_material_light</item>
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
         <item name="android:colorBackground">@color/background_material_dark</item>
         <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
         <item name="android:disabledAlpha">@dimen/abc_disabled_alpha_material_dark</item>
@@ -1204,7 +1219,7 @@
         <item name="android:textColorHint">@color/hint_foreground_material_dark</item>
         <item name="android:textColorHintInverse">@color/hint_foreground_material_light</item>
         <item name="android:textColorHighlight">@color/highlighted_text_material_dark</item>
-        <item name="android:textColorLink">@color/link_text_material_dark</item>
+        <item name="android:textColorLink">?attr/colorAccent</item>
 
         <!-- Text styles -->
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
@@ -1223,8 +1238,8 @@
         <item name="android:windowNoTitle">true</item>
 
         <!-- Window colors -->
-        <item name="android:colorForeground">@color/bright_foreground_material_light</item>
-        <item name="android:colorForegroundInverse">@color/bright_foreground_material_dark</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
         <item name="android:colorBackground">@color/background_material_light</item>
         <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_light</item>
         <item name="android:disabledAlpha">@dimen/abc_disabled_alpha_material_light</item>
@@ -1243,7 +1258,7 @@
         <item name="android:textColorHint">@color/hint_foreground_material_light</item>
         <item name="android:textColorHintInverse">@color/hint_foreground_material_dark</item>
         <item name="android:textColorHighlight">@color/highlighted_text_material_light</item>
-        <item name="android:textColorLink">@color/link_text_material_light</item>
+        <item name="android:textColorLink">?attr/colorAccent</item>
 
         <!-- Text styles -->
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
@@ -1258,7 +1273,8 @@
         <item name="android:listChoiceIndicatorSingle">@drawable/abc_btn_radio_material</item>
         <item name="android:listChoiceIndicatorMultiple">@drawable/abc_btn_check_material</item>
     </style>
-    <style name="Platform.ThemeOverlay.AppCompat.Dark" parent="">
+    <style name="Platform.ThemeOverlay.AppCompat" parent=""/>
+    <style name="Platform.ThemeOverlay.AppCompat.Dark">
         <!-- Action Bar styles -->
         <item name="actionBarItemBackground">@drawable/abc_item_background_holo_dark</item>
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
@@ -1268,7 +1284,7 @@
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
-    <style name="Platform.ThemeOverlay.AppCompat.Light" parent="">
+    <style name="Platform.ThemeOverlay.AppCompat.Light">
         <item name="actionBarItemBackground">@drawable/abc_item_background_holo_light</item>
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
@@ -1277,7 +1293,10 @@
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.Light.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles_rtl.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_base.xml -->
+    <eat-comment/>
+    <style name="Platform.Widget.AppCompat.Spinner" parent="android:Widget.Spinner"/>
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles_rtl.xml -->
     <eat-comment/>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
     </style>
@@ -1321,10 +1340,7 @@
     <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="android:Widget">
         <item name="android:layout_marginLeft">@dimen/abc_dropdownitem_text_padding_left</item>
     </style>
-    <style name="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation">
-        <item name="android:paddingLeft">@dimen/abc_action_bar_navigation_padding_start_material</item>
-    </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles.xml -->
     <eat-comment/>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
@@ -1360,12 +1376,10 @@
     <style name="TextAppearance.AppCompat.Title.Inverse" parent="Base.TextAppearance.AppCompat.Title.Inverse"/>
     <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu">
     </style>
-    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
-    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle"/>
     <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse">
     </style>
-    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
-    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title"/>
     <style name="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
     </style>
     <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
@@ -1374,6 +1388,8 @@
     <style name="TextAppearance.AppCompat.Widget.ActionMode.Title" parent="Base.TextAppearance.AppCompat.Widget.ActionMode.Title">
     </style>
     <style name="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse" parent="TextAppearance.AppCompat.Widget.ActionMode.Title"/>
+    <style name="TextAppearance.AppCompat.Widget.Button" parent="Base.TextAppearance.AppCompat.Widget.Button"/>
+    <style name="TextAppearance.AppCompat.Widget.Button.Inverse" parent="Base.TextAppearance.AppCompat.Widget.Button.Inverse"/>
     <style name="TextAppearance.AppCompat.Widget.DropDownItem" parent="Base.TextAppearance.AppCompat.Widget.DropDownItem">
     </style>
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large">
@@ -1393,7 +1409,7 @@
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/themes.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/themes.xml -->
     <eat-comment/>
     <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>
     <style name="Theme.AppCompat.CompactMenu" parent="Base.Theme.AppCompat.CompactMenu"/>
@@ -1422,7 +1438,7 @@
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values/styles.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values/styles.xml -->
     <eat-comment/>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
@@ -1447,6 +1463,7 @@
     <style name="Widget.AppCompat.Button.Borderless" parent="Base.Widget.AppCompat.Button.Borderless"/>
     <style name="Widget.AppCompat.Button.Borderless.Colored" parent="Base.Widget.AppCompat.Button.Borderless.Colored"/>
     <style name="Widget.AppCompat.Button.ButtonBar.AlertDialog" parent="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog"/>
+    <style name="Widget.AppCompat.Button.Colored" parent="Base.Widget.AppCompat.Button.Colored"/>
     <style name="Widget.AppCompat.Button.Small" parent="Base.Widget.AppCompat.Button.Small"/>
     <style name="Widget.AppCompat.ButtonBar" parent="Base.Widget.AppCompat.ButtonBar"/>
     <style name="Widget.AppCompat.ButtonBar.AlertDialog" parent="Base.Widget.AppCompat.ButtonBar.AlertDialog"/>
@@ -1509,9 +1526,9 @@
     <style name="Widget.AppCompat.SearchView.ActionBar" parent="Base.Widget.AppCompat.SearchView.ActionBar"/>
     <style name="Widget.AppCompat.Spinner" parent="Base.Widget.AppCompat.Spinner"/>
     <style name="Widget.AppCompat.Spinner.DropDown"/>
-    <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Base.Widget.AppCompat.Spinner.DropDown.ActionBar"/>
+    <style name="Widget.AppCompat.Spinner.DropDown.ActionBar"/>
     <style name="Widget.AppCompat.Spinner.Underlined" parent="Base.Widget.AppCompat.Spinner.Underlined"/>
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
-    <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation"/>
+    <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
 </resources>

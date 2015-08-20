@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/lmp-mr1-supportlib-release/frameworks/support/v7/appcompat/res/values-v17/styles_rtl.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values-v17/styles_rtl.xml -->
     <eat-comment/>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
         <item name="android:textAlignment">viewStart</item>
@@ -45,8 +45,5 @@
     </style>
     <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="android:Widget">
         <item name="android:layout_marginStart">@dimen/abc_dropdownitem_text_padding_left</item>
-    </style>
-    <style name="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation">
-        <item name="android:paddingStart">@dimen/abc_action_bar_navigation_padding_start_material</item>
     </style>
 </resources>
