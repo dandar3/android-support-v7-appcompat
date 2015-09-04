@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-release/frameworks/support/v7/appcompat/res/values-my-rMM/strings.xml -->
+    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-sdk-release/frameworks/support/v7/appcompat/res/values-my-rMM/strings.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"မူလနေရာကို သွားရန်"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s၊ %2$s"</string>
