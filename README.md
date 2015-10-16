@@ -1,11 +1,14 @@
 Eclipse library project based on:<br/>
-`ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/23.0.1/appcompat-v7-23.0.1.aar`
+`ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/23.1.0/appcompat-v7-23.1.0.aar`
 
 Requires (to compile):<br/>
 `Android 6.0 (API 23) SDK Platform`
 
+Requires library:</br>
+* [dandar3/android-support-v4](https://github.com/dandar3/android-support-v4)
+
 Subversion checkout URL:<br/>
-* https://github.com/dandar3/android-support-v7-appcompat/tags/23.0.1
+* https://github.com/dandar3/android-support-v7-appcompat/tags/23.1.0
 
 References:
 * https://developer.android.com/tools/support-library/index.html#revisions
