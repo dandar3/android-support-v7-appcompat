@@ -45,7 +45,7 @@
                     android:src="@null"
                     style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon"/>
 
-            <android.support.v7.internal.widget.DialogTitle
+            <android.support.v7.widget.DialogTitle
                     android:id="@+id/alertTitle"
                     style="?attr/android:windowTitleStyle"
                     android:singleLine="true"
@@ -124,4 +124,4 @@
 
     <include layout="@layout/abc_alert_dialog_button_bar_material" />
 
-</LinearLayout><!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/layout/abc_alert_dialog_material.xml -->
+</LinearLayout><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/layout/abc_alert_dialog_material.xml -->

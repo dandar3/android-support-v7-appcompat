@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base_text.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base_text.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
@@ -15,30 +15,30 @@
     <style name="Base.TextAppearance.AppCompat.Inverse" parent="android:TextAppearance.Material.Inverse"/>
     <style name="Base.TextAppearance.AppCompat.Large" parent="android:TextAppearance.Material.Large"/>
     <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="android:TextAppearance.Material.Large.Inverse"/>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="android:TextAppearance.Material.Widget.PopupMenu.Large">
     </style>
     <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="android:TextAppearance.Material.Widget.PopupMenu.Small">
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base_text.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base_text.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Medium" parent="android:TextAppearance.Material.Medium"/>
     <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="android:TextAppearance.Material.Medium.Inverse"/>
     <style name="Base.TextAppearance.AppCompat.Menu" parent="android:TextAppearance.Material.Menu"/>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle" parent="android:TextAppearance.Material.SearchResult.Subtitle">
     </style>
     <style name="Base.TextAppearance.AppCompat.SearchResult.Title" parent="android:TextAppearance.Material.SearchResult.Title">
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base_text.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base_text.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Small" parent="android:TextAppearance.Material.Small"/>
     <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="android:TextAppearance.Material.Small.Inverse"/>
     <style name="Base.TextAppearance.AppCompat.Subhead" parent="android:TextAppearance.Material.Subhead"/>
     <style name="Base.TextAppearance.AppCompat.Title" parent="android:TextAppearance.Material.Title"/>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="android:TextAppearance.Material.Widget.ActionBar.Menu">
     </style>
@@ -54,26 +54,26 @@
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title" parent="android:TextAppearance.Material.Widget.ActionMode.Title">
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base_text.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base_text.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Widget.Button" parent="android:TextAppearance.Material.Widget.Button"/>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="android:TextAppearance.Material.Widget.PopupMenu.Large">
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="android:TextAppearance.Material.Widget.PopupMenu.Small">
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base_text.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base_text.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Widget.Switch" parent="android:TextAppearance.Material.Button"/>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="android:TextAppearance.Material.Widget.TextView.SpinnerItem"/>
     <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="android:TextAppearance.Material.Widget.ActionBar.Subtitle">
     </style>
     <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="android:TextAppearance.Material.Widget.ActionBar.Title">
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/themes_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/themes_base.xml -->
     <eat-comment/>
     <style name="Base.Theme.AppCompat" parent="Base.V21.Theme.AppCompat"/>
     <style name="Base.Theme.AppCompat.Dialog" parent="Base.V21.Theme.AppCompat.Dialog"/>
@@ -85,8 +85,6 @@
         <item name="actionBarDivider">?android:attr/actionBarDivider</item>
         <item name="actionBarItemBackground">@drawable/abc_action_bar_item_background_material</item>
         <item name="actionButtonStyle">?android:attr/actionButtonStyle</item>
-        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
-        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
         <item name="actionModeBackground">?android:attr/actionModeBackground</item>
         <item name="actionModeCloseDrawable">?android:attr/actionModeCloseDrawable</item>
         <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
@@ -134,8 +132,6 @@
         <item name="actionBarDivider">?android:attr/actionBarDivider</item>
         <item name="actionBarItemBackground">@drawable/abc_action_bar_item_background_material</item>
         <item name="actionButtonStyle">?android:attr/actionButtonStyle</item>
-        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
-        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
         <item name="actionModeBackground">?android:attr/actionModeBackground</item>
         <item name="actionModeCloseDrawable">?android:attr/actionModeCloseDrawable</item>
         <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
@@ -177,7 +173,7 @@
     <style name="Base.V21.Theme.AppCompat.Light.Dialog" parent="Base.V11.Theme.AppCompat.Light.Dialog">
         <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/styles_base.xml -->
     <eat-comment/>
     <style name="Base.Widget.AppCompat.ActionBar.TabText" parent="android:Widget.Material.ActionBar.TabText">
     </style>
@@ -238,7 +234,7 @@
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
-    <!-- From: file:/usr/local/google/buildbot/repo_clients/https___googleplex-android.googlesource.com_a_platform_manifest.git/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/themes_base.xml -->
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/values-v21/themes_base.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme.Material">
         <item name="android:windowNoTitle">true</item>
