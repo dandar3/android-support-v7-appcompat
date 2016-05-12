@@ -17,8 +17,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="android.support.v7.appcompat"
-    android:versionCode="2330"
-    android:versionName="23.3.0">
+    android:versionCode="2340"
+    android:versionName="23.4.0">
     <uses-sdk android:minSdkVersion="7"
         tools:overrideLibrary="android.support.graphics.drawable.animated" />
     <application />
