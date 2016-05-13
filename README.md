@@ -7,8 +7,11 @@ Requires (to compile):<br/>
 Requires library:</br>
 * [dandar3/android-support-v4](https://github.com/dandar3/android-support-v4)
 
-Subversion checkout URL:<br/>
-* https://github.com/dandar3/android-support-v7-appcompat/tags/23.4.0
+Subversion checkout URLs:<br/>
+* Eclipse ADT<br/>
+  https://github.com/dandar3/android-support-v7-appcompat/tags/23.4.0
+* Eclipse Andmore<br/>
+  https://github.com/dandar3/android-support-v7-appcompat/tags/23.4.0_andmore
 
 References:
 * https://developer.android.com/tools/support-library/index.html#revisions
