@@ -16,7 +16,8 @@
     <string msgid="8264924765203268293" name="abc_searchview_description_search">"Qidirish"</string>
     <string msgid="8928215447528550784" name="abc_searchview_description_submit">"So‘rov yaratish"</string>
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ovozli qidiruv"</string>
-    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Bo‘lishish:"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Ruxsat berish"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sga ruxsat berish"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Yig‘ish"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
