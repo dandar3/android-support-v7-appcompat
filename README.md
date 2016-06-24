@@ -10,14 +10,14 @@ Eclipse library project based on:<br/>
 - https://developer.android.com/topic/libraries/support-library/revisions.html
 - https://developer.android.com/topic/libraries/support-library/features.html#v7-appcompat
 
-**Known issue**:
- _Android AAPT Problem (1 item):
-  `abc_alert_dialog_button_bar_material.xml` <br/>
-  `removing attribute http://schemas.android.com/apk/res/android:layoutDirection from ...`<br/>
-
-  _Solution_:
-  Set Eclipse `Preferences` > `Android` > `Build` > `Build output` to `Normal` or `Silent` instead of `Verbose`.<br/>
-  @see https://code.google.com/p/android/issues/detail?id=164673#c18
+**Issue**:<br/>
+ > _Android AAPT Problem (1 item)_<br/>
+ > `abc_alert_dialog_button_bar_material.xml` <br/>
+ > `removing attribute http://schemas.android.com/apk/res/android:layoutDirection from ...`<br/>
+ >
+ > _Solution_:<br/>
+ > Set Eclipse `Preferences` > `Android` > `Build` > `Build output` to `Normal` or `Silent` instead of `Verbose`.<br/>
+ > @see https://code.google.com/p/android/issues/detail?id=164673#c18
 
 **SVN checkout:**<br/>
 - `Eclipse ADT`<br/>
