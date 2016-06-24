@@ -1,3 +1,5 @@
+#android-support-v7-appcompat
+
 Eclipse library project based on:<br/>
 `ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/24.0.0/appcompat-v7-24.0.0.aar`
 
