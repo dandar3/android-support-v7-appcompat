@@ -16,14 +16,14 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="android.support.v7.appcompat"
-    android:versionCode="2400"
-    android:versionName="24.0.0">
+    package="android.support.v7.appcompat" 
+          android:versionCode="2410"
+          android:versionName="24.1.0">
 
     <uses-sdk
         android:minSdkVersion="7"
         tools:overrideLibrary="android.support.graphics.drawable.animated" />
-    
+
     <application />
 
 </manifest>
