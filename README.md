@@ -1,10 +1,10 @@
-#android-support-v7-appcompat
+## android-support-v7-appcompat
 
 Eclipse library project based on:<br/>
 `ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/24.1.0/appcompat-v7-24.1.0.aar`
 
 **Requires:**<br/>
-- `Android N (API 24) SDK Platform`
+- `Android 7.0 (API 24) SDK Platform`
 - [dandar3/android-support-v4](https://github.com/dandar3/android-support-v4)
 - [dandar3/android-support-vector-drawable](https://github.com/dandar3/android-support-vector-drawable)
 - [dandar3/android-support-animated-vector-drawable](https://github.com/dandar3/android-support-animated-vector-drawable) (optional)
@@ -23,7 +23,4 @@ Eclipse library project based on:<br/>
  > @see https://code.google.com/p/android/issues/detail?id=164673#c18
 
 **SVN checkout:**<br/>
-- `Eclipse ADT`<br/>
-  https://github.com/dandar3/android-support-v7-appcompat/tags/24.1.0
-- `Eclipse Andmore`<br/>
-  https://github.com/dandar3/android-support-v7-appcompat/tags/24.1.0_andmore
+- https://github.com/dandar3/android-support-v7-appcompat/tags/24.1.0
