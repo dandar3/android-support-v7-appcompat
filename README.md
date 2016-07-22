@@ -1,7 +1,7 @@
 ## android-support-v7-appcompat
 
 Eclipse library project based on:<br/>
-`ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/24.1.0/appcompat-v7-24.1.0.aar`
+`ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/24.1.1/appcompat-v7-24.1.1.aar`
 
 **Requires:**<br/>
 - `Android 7.0 (API 24) SDK Platform`
@@ -23,4 +23,4 @@ Eclipse library project based on:<br/>
  > @see https://code.google.com/p/android/issues/detail?id=164673#c18
 
 **SVN checkout:**<br/>
-- https://github.com/dandar3/android-support-v7-appcompat/tags/24.1.0
+- https://github.com/dandar3/android-support-v7-appcompat/tags/24.1.1
