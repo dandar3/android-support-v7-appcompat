@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psf version="2.0">
+<provider id="org.eclipse.team.svn.core.svnnature">
+<project reference="1.0.1,https://github.com/dandar3/android-support-animated-vector-drawable/tags/24.1.1,android-support-animated-vector-drawable,40f0c491b76f00161854ecb4e85db2a3;https://github.com/dandar3/android-support-animated-vector-drawable;https://github.com/dandar3/android-support-animated-vector-drawable;branches;tags;trunk;true;ba75ab27-8c8c-5cd0-d52e-ce57b7db7bff;https://github.com/dandar3/android-support-animated-vector-drawable;;false;;;0"/>
+<project reference="1.0.1,https://github.com/dandar3/android-support-annotations/tags/24.1.1,android-support-annotations,50bf70d4a36f00161579af21f0f3324d;https://github.com/dandar3/android-support-annotations;https://github.com/dandar3/android-support-annotations;branches;tags;trunk;true;aa34aa4b-e5c0-a7b4-83f5-ce57b7db7bff;https://github.com/dandar3/android-support-annotations;;false;;;0"/>
+<project reference="1.0.1,https://github.com/dandar3/android-support-v4/tags/24.1.1,android-support-v4,20674d4ab16f00161854ecb4e85db2a3;https://github.com/dandar3/android-support-v4;https://github.com/dandar3/android-support-v4;branches;tags;trunk;true;05735a7a-8691-fd6c-0a7f-ce57b7db7bff;https://github.com/dandar3/android-support-v4;;false;;;0"/>
+<project reference="1.0.1,https://github.com/dandar3/android-support-v7-appcompat/tags/24.1.1,android-support-v7-appcompat,60e2bf3cb96f0016145994aba697c69f;https://github.com/dandar3/android-support-v7-appcompat;https://github.com/dandar3/android-support-v7-appcompat;branches;tags;trunk;true;4aec565e-f51d-b480-4145-ce57b7db7bff;https://github.com/dandar3/android-support-v7-appcompat;;false;;;0"/>
+<project reference="1.0.1,https://github.com/dandar3/android-support-vector-drawable/tags/24.1.1,android-support-vector-drawable,90269be8b36f00161854ecb4e85db2a3;https://github.com/dandar3/android-support-vector-drawable;https://github.com/dandar3/android-support-vector-drawable;branches;tags;trunk;true;2cf46c96-37a5-2532-fc76-ce57b7db7bff;https://github.com/dandar3/android-support-vector-drawable;;false;;;0"/>
+</provider>
+</psf>
