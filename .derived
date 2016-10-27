@@ -1,3 +1,2 @@
-# set 'bin' and 'gen' folders as derived
+# set 'bin' folder as derived
 bin
-gen

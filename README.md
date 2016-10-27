@@ -4,7 +4,7 @@ Eclipse library project based on:<br/>
 `ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/24.2.1/appcompat-v7-24.2.1.aar`
 
 **Requires:**
-- `Android 7.0 (API 24) SDK Platform`
+- `Android 7.1 (API 25) SDK Platform`
 - [dandar3/android-support-v4](https://github.com/dandar3/android-support-v4/tree/24.2.1)
 - [dandar3/android-support-vector-drawable](https://github.com/dandar3/android-support-vector-drawable/tree/24.2.1)
 - [dandar3/android-support-animated-vector-drawable](https://github.com/dandar3/android-support-animated-vector-drawable/tree/24.2.1) (optional)
