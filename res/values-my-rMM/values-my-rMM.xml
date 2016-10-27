@@ -14,7 +14,7 @@
     <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ရှာစရာ အချက်အလက်များ ဖယ်ရှားရန်"</string>
     <string msgid="2550479030709304392" name="abc_searchview_description_query">"ရှာစရာ အချက်အလက်နေရာ"</string>
     <string msgid="8264924765203268293" name="abc_searchview_description_search">"ရှာဖွေရန်"</string>
-    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ရှာဖွေစရာ အချက်အလက်ကို အတည်ပြုရန်"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ရှာဖွေစရာ အချက်အလက်ကို ပေးပို့ရန်"</string>
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"အသံဖြင့် ရှာဖွေခြင်း"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"မျှဝေဖို့ ရွေးပါ"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s ကို မျှဝေပါရန်"</string>
