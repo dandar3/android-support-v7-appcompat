@@ -11,7 +11,6 @@ Eclipse library project based on:<br/>
 - [dandar3/android-support-animated-vector-drawable](https://github.com/dandar3/android-support-animated-vector-drawable/tree/25.1.0) (optional)
 
 **References:**
-- https://plus.google.com/wm/4/+IanLake/posts/ajFE8GneXqm
 - https://developer.android.com/topic/libraries/support-library/revisions.html#rev25-1-0
 - https://developer.android.com/topic/libraries/support-library/features.html#v7-appcompat
 

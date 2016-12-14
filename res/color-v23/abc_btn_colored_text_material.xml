@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
- Copyright (C) 2012 The Android Open Source Project
+<!-- Copyright (C) 2016 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,16 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="android.support.v7.appcompat" 
-    android:versionCode="2510"
-    android:versionName="25.1.0">
 
-    <uses-sdk
-        android:minSdkVersion="9"
-        tools:overrideLibrary="android.support.graphics.drawable.animated" />
-
-    <application />
-
-</manifest>
+<!-- Used for the text of a bordered colored button. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false"
+          android:alpha="?android:attr/disabledAlpha"
+          android:color="?android:attr/textColorPrimary" />
+    <item android:color="?android:attr/textColorPrimaryInverse" />
+</selector>
