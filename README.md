@@ -1,17 +1,18 @@
 ## android-support-v7-appcompat
 
 Eclipse library project based on:<br/>
-`ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/25.0.1/appcompat-v7-25.0.1.aar`
+`ANDROID_SDK/extras/android/m2repository/com/android/support/appcompat-v7/25.1.0/appcompat-v7-25.1.0.aar`
 
 **Requires:**
 - `Android 7.1 (API 25) SDK Platform`
-- [dandar3/android-support-v4](https://github.com/dandar3/android-support-v4/tree/25.0.1)
-- [dandar3/android-support-vector-drawable](https://github.com/dandar3/android-support-vector-drawable/tree/25.0.1)
-- [dandar3/android-support-animated-vector-drawable](https://github.com/dandar3/android-support-animated-vector-drawable/tree/25.0.1) (optional)
+- [dandar3/android-support-annotations](https://github.com/dandar3/android-support-annotations/tree/25.1.0)
+- [dandar3/android-support-v4](https://github.com/dandar3/android-support-v4/tree/25.1.0)
+- [dandar3/android-support-vector-drawable](https://github.com/dandar3/android-support-vector-drawable/tree/25.1.0)
+- [dandar3/android-support-animated-vector-drawable](https://github.com/dandar3/android-support-animated-vector-drawable/tree/25.1.0) (optional)
 
 **References:**
 - https://plus.google.com/wm/4/+IanLake/posts/ajFE8GneXqm
-- https://developer.android.com/topic/libraries/support-library/revisions.html#rev25-0-1
+- https://developer.android.com/topic/libraries/support-library/revisions.html#rev25-1-0
 - https://developer.android.com/topic/libraries/support-library/features.html#v7-appcompat
 
 **Issue:**<br/>
@@ -25,6 +26,6 @@ Eclipse library project based on:<br/>
 
 **SVN checkout:**
 - _File > Import... > Team > Team Project Set > URL:_<br/>
-  https://raw.githubusercontent.com/dandar3/android-support-v7-appcompat/25.0.1/.projectset
+  https://raw.githubusercontent.com/dandar3/android-support-v7-appcompat/25.1.0/.projectset
 - _File > Import... > SVN > Project from SVN > Create a new repository location > URL:_<br/>
-  https://github.com/dandar3/android-support-v7-appcompat/tags/25.0.1
+  https://github.com/dandar3/android-support-v7-appcompat/tags/25.1.0
