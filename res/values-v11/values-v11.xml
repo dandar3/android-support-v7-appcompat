@@ -86,6 +86,7 @@
 
         <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
         <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:borderlessButtonStyle">?attr/borderlessButtonStyle</item>
 
         <!-- Window colors -->
         <item name="android:colorForeground">@color/foreground_material_dark</item>
@@ -139,6 +140,7 @@
 
         <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
         <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:borderlessButtonStyle">?attr/borderlessButtonStyle</item>
 
         <!-- Window colors -->
         <item name="android:colorForeground">@color/foreground_material_light</item>
