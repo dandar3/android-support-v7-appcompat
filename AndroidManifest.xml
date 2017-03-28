@@ -17,8 +17,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="android.support.v7.appcompat" 
-    android:versionCode="2530"
-    android:versionName="25.3.0">
+    android:versionCode="2531"
+    android:versionName="25.3.1">
 
     <uses-sdk
         android:minSdkVersion="9"
@@ -26,7 +26,7 @@
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="25.3.0" />
+        android:value="25.3.1" />
 
     <application />
 
