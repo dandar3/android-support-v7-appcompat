@@ -17,8 +17,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="android.support.v7.appcompat" 
-    android:versionCode="2602"
-    android:versionName="26.0.2">
+    android:versionCode="2610"
+    android:versionName="26.1.0">
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -27,7 +27,7 @@
     <application>
         <meta-data
             android:name="android.support.VERSION"
-            android:value="26.0.2" />
+            android:value="26.1.0" />
     </application>
 
 </manifest>
