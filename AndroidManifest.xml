@@ -15,19 +15,10 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="android.support.v7.appcompat" 
-    android:versionCode="2610"
-    android:versionName="26.1.0">
+    android:versionCode="2700"
+    android:versionName="27.0.0">
 
-    <uses-sdk
-        android:minSdkVersion="14"
-        tools:overrideLibrary="android.support.graphics.drawable.animated" />
-
-    <application>
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-    </application>
+    <uses-sdk android:minSdkVersion="14" />
 
 </manifest>
