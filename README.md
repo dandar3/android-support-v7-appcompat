@@ -9,7 +9,7 @@ https://maven.google.com/com/android/support/appcompat-v7/27.0.0/appcompat-v7-27
 - [dandar3/android-support-core-utils](https://github.com/dandar3/android-support-core-utils/tree/27.0.0)
 - [dandar3/android-support-fragment](https://github.com/dandar3/android-support-fragment/tree/27.0.0)
 - [dandar3/android-support-vector-drawable](https://github.com/dandar3/android-support-vector-drawable/tree/27.0.0)
-- [dandar3/android-support-animated-vector-drawable](https://github.com/dandar3/android-support-animated-vector-drawable/tree/27.0.0) (optional)
+- [dandar3/android-support-animated-vector-drawable](https://github.com/dandar3/android-support-animated-vector-drawable/tree/27.0.0)
 
 **References:**
 - https://developer.android.com/topic/libraries/support-library/revisions.html#27-0-0
