@@ -16,8 +16,8 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="android.support.v7.appcompat" 
-    android:versionCode="2711"
-    android:versionName="27.1.1">
+    android:versionCode="2800"
+    android:versionName="28.0.0">
 
     <uses-sdk android:minSdkVersion="14" />
 
